@@ -1,0 +1,27 @@
+
+
+#' A little data cube with some statistics of wages in Ticino, from 2002 to 2014.
+#'
+#'
+#' Every row of the dataset consists in a group of workers of a certain year 
+#' (\code{anno}), with a certain level of education (\code{formazione}) and gender (\code{sesso}).
+#' For every group of workers, some statistics are reported. 
+#'
+#'
+#' @format A data frame with 210 observations on the following 12 variables.
+#' \describe{
+#'   \item{\code{anno}}{a factor with levels \code{2002} \code{2004} \code{2006} \code{2008} \code{2010} \code{2012} \code{2014}}
+#'   \item{\code{formazione}}{a factor with levels \code{Totale} \code{UNI-POLI} \code{SUP} \code{Form. prof. superiore} \code{Brevetto d\'insegnamento} \code{Maturit.} \code{Apprendistato completo} \code{Form. acquisita in azienda} \code{Scuole obbligatorie} \code{Altre formazioni complete}}
+#'     \item{\code{sesso}}{a factor with levels \code{Totale} \code{Uomini} \code{Donne}}
+#'     \item{\code{N_salariati}}{Estimate of the number of job places}
+#'     \item{\code{N_etp}}{Estimate of the number of job places, in full time equivalent}
+#'     \item{\code{salario_medio}}{monthly standardized average wage}
+#'     \item{\code{p10}}{Estimate of the 10th percentile of monthtly standardized wage}
+#'     \item{\code{p25}}{Estimate of the 25th percentile of monthtly standardized wage}
+#'     \item{\code{p50}}{Estimate of the 50th percentile of monthtly standardized wage (median)}
+#'     \item{\code{p75}}{Estimate of the 75th percentile of monthtly standardized wage}
+#'     \item{\code{p90}}{Estimate of the 90th percentile of monthtly standardized wage}
+#'     \item{\code{info}}{a character vector}
+#'     \item{\code{id}}{an integer vector, as a unique identifier of each row.}
+#' }
+"c02_14"

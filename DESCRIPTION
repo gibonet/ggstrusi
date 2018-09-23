@@ -1,0 +1,16 @@
+Package: ggstrusi
+Title: Some Functions To Be Used with 'ggplot2'
+Description: Some functions to be used with 'ggplot2'. One example is the
+    creation of a version of the Tufte boxplot.
+Version: 0.0.0
+License: GPL-2
+Author: Gibo <gibo.gaf@gmail.com>
+Maintainer: Gibo <gibo.gaf@gmail.com>
+Encoding: UTF-8
+Depends: R (>= 2.10)
+Imports:
+    ggplot2,
+    ggthemes
+Suggests: 
+    dplyr
+RoxygenNote: 5.0.1
