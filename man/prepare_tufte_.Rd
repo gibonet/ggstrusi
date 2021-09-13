@@ -52,4 +52,3 @@ tufte_boxplot(data = c02_14, l) + ggplot2::coord_flip()
 \code{\link{prepare_tufte}} which does quite the same things but, instead of one-sided formulas, uses 
 character strings to set aesthetic mappings.
 }
-

@@ -4,7 +4,8 @@
 \name{c02_14}
 \alias{c02_14}
 \title{A little data cube with some statistics of wages in Ticino, from 2002 to 2014.}
-\format{A data frame with 210 observations on the following 12 variables.
+\format{
+A data frame with 210 observations on the following 12 variables.
 \describe{
   \item{\code{anno}}{a factor with levels \code{2002} \code{2004} \code{2006} \code{2008} \code{2010} \code{2012} \code{2014}}
   \item{\code{formazione}}{a factor with levels \code{Totale} \code{UNI-POLI} \code{SUP} \code{Form. prof. superiore} \code{Brevetto d\'insegnamento} \code{Maturit.} \code{Apprendistato completo} \code{Form. acquisita in azienda} \code{Scuole obbligatorie} \code{Altre formazioni complete}}
@@ -19,7 +20,8 @@
     \item{\code{p90}}{Estimate of the 90th percentile of monthtly standardized wage}
     \item{\code{info}}{a character vector}
     \item{\code{id}}{an integer vector, as a unique identifier of each row.}
-}}
+}
+}
 \usage{
 c02_14
 }
@@ -29,4 +31,3 @@ Every row of the dataset consists in a group of workers of a certain year
 For every group of workers, some statistics are reported.
 }
 \keyword{datasets}
-

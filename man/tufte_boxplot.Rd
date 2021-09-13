@@ -44,4 +44,3 @@ g_tufte <- list(g1, g2, g3)
 tufte_boxplot(c02_14, g_tufte)
 
 }
-

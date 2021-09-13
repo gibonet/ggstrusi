@@ -3,10 +3,8 @@
 \docType{package}
 \name{ggstrusi}
 \alias{ggstrusi}
-\alias{ggstrusi-package}
 \title{Some functions to Be used with 'ggplot2'}
 \description{
 Some functions to be used with 'ggplot2'. One example is the creation of a 
 version of the boxplot proposed by Edward Tufte.
 }
-

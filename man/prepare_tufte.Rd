@@ -52,4 +52,3 @@ tufte_boxplot(data = c02_14[1, ], l)
 \code{\link{prepare_tufte_}} which does quite the same things but, instead of character arguments, uses 
 one-sided \code{\link[stats]{formula}} to set aesthetic mappings.
 }
-
