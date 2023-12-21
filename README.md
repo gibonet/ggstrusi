@@ -4,7 +4,6 @@ output:
     variant: markdown_github
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
@@ -16,7 +15,7 @@ knitr::opts_chunk$set(
 
 # ggstrusi
 
-[![R build status](https://github.com/gibonet/ggstrusi/workflows/R-CMD-check/badge.svg)](https://github.com/gibonet/ggstrusi/actions)
+[![R-CMD-check](https://github.com/gibonet/ggstrusi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/gibonet/ggstrusi/actions/workflows/R-CMD-check.yaml)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/ggstrusi)](http://cran.r-project.org/package=ggstrusi)
 
 
